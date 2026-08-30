@@ -1,2 +1,2 @@
-# Potential_Sports_Analytics_Portfolio_Projects
-My potential sports analytics portfolio projects.
+# Potential Sports Analyst Portfolio  
+Data‑driven insights and visualizations for [sport(s)] – from match predictions to player performance dashboards.
