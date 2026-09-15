@@ -75,3 +75,8 @@ Examples of findings from the projects include:
 - Statistical analysis
 - Data visualization
 - Predictive modeling
+
+## Contact
+Name: Chyle Akiyama  
+Email: chyle.akiyama@gmail.com  
+LinkedIn: https://www.linkedin.com/in/chyle-akiyama/
