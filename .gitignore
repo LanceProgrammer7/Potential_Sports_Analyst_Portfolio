@@ -1,0 +1,140 @@
+# -------------------------
+# Secrets and credentials
+# -------------------------
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+credentials/
+secrets/
+config.local.*
+
+# API keys and local configuration
+*api_key*
+*apikey*
+config.local.*
+
+# -------------------------
+# Operating-system files
+# -------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# Editors and IDEs
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# -------------------------
+# R, if applicable
+# -------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# -------------------------
+# Raw or restricted sports data
+# -------------------------
+data/raw/
+data/private/
+data/confidential/
+data/proprietary/
+
+# Game feeds, tracking, and event data
+*.json
+*.parquet
+*.feather
+*.pkl
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------
+# Video and large media
+# -------------------------
+video/
+videos/
+film/
+clips/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Images generated from video or tracking data
+frames/
+*.tif
+*.tiff
+
+# -------------------------
+# Generated and processed data
+# -------------------------
+data/interim/
+data/processed/
+data/generated/
+
+output/
+exports/
+reports/generated/
+figures/generated/
+visualizations/
+
+# -------------------------
+# Models and experiment files
+# -------------------------
+models/
+checkpoints/
+runs/
+mlruns/
+wandb/
+.tensorboard/
+lightning_logs/
+
+*.joblib
+*.pickle
+*.h5
+*.onnx
+*.pt
+*.pth
+
+# -------------------------
+# Temporary files and logs
+# -------------------------
+tmp/
+temp/
+.cache/
+*.log
+*.tmp
+*.bak
+
+# -------------------------
+# Archives
+# -------------------------
+*.zip
+*.7z
+*.tar
+*.gz
